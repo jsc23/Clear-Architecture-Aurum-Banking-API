@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurum.Infrastructure", "Aurum.Infrastructure\Aurum.Infrastructure.csproj", "{054621D5-6BD0-4ADA-A828-FC54A573F39C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurum.Application", "Aurum.Application\Aurum.Application.csproj", "{2F9CF6F6-FD3B-4D3D-B2B3-EA69BCDF4B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurum.Domain", "Aurum.Domain\Aurum.Domain.csproj", "{FF16EA33-8E59-4CAD-98AA-35A6026D2D13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurum.Contracts", "Aurum.Presentation\Aurum.Contracts\Aurum.Contracts.csproj", "{8354C2AE-8F7B-452D-9AC1-3CAE8A6828FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurum.WebApi", "Aurum.Presentation\Aurum.WebApi\Aurum.WebApi.csproj", "{FD2CDA28-1166-4F31-82FE-D729DE27D7F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{054621D5-6BD0-4ADA-A828-FC54A573F39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054621D5-6BD0-4ADA-A828-FC54A573F39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054621D5-6BD0-4ADA-A828-FC54A573F39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054621D5-6BD0-4ADA-A828-FC54A573F39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9CF6F6-FD3B-4D3D-B2B3-EA69BCDF4B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9CF6F6-FD3B-4D3D-B2B3-EA69BCDF4B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9CF6F6-FD3B-4D3D-B2B3-EA69BCDF4B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9CF6F6-FD3B-4D3D-B2B3-EA69BCDF4B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF16EA33-8E59-4CAD-98AA-35A6026D2D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF16EA33-8E59-4CAD-98AA-35A6026D2D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF16EA33-8E59-4CAD-98AA-35A6026D2D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF16EA33-8E59-4CAD-98AA-35A6026D2D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8354C2AE-8F7B-452D-9AC1-3CAE8A6828FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8354C2AE-8F7B-452D-9AC1-3CAE8A6828FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8354C2AE-8F7B-452D-9AC1-3CAE8A6828FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8354C2AE-8F7B-452D-9AC1-3CAE8A6828FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2CDA28-1166-4F31-82FE-D729DE27D7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2CDA28-1166-4F31-82FE-D729DE27D7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2CDA28-1166-4F31-82FE-D729DE27D7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2CDA28-1166-4F31-82FE-D729DE27D7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
